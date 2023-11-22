@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+.marca img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.menu li a {
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+
+.menu li a:hover {
+    background-color: #4d4d4d;
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 11px;
+    transition: all .5s ease;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-orange {
+    background-color: #a700da;
+    border: 2px solid #a700da;
+    color: white;
+}
+.button-orange:hover {
+    background-color: black;
+    color: #a700da;
+}
+
+.background {
+    background-image: url('../imagens/Fundo\ 1.png');
+    background-size: cover;
+    height: calc(100vh - 246px);
+    background-position: bottom;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    position: absolute;
+    background-color: #000000d8;
+    color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 60%;
+    padding: 30px;
+}
+
+.hero h1 {
+    color: #a700da;
+}
+
+
+
+.principais-caracteristicas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.principais-caracteristicas-grid div {
+    background-color:  black;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.principais-caracteristicas {
+    background-color:  #a700da;
+    padding: 120px 0;
+    color: white;
+}
+
+.principais-caracteristicas .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 25px 0;
+}
+
+#footer .row {
+    height: 100%;
+}
+
+#footer img {
+    width: 150px;
+}
+
+ul.footer-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    user-select: none;
+    cursor: pointer;
+    gap: 10px;
+}
+
+ul.footer-menu li {
+    font-size: 20px;
+}
+
+.line-footer {
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+}
